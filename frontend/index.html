@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay on Track</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Stay on Track</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Dashboard</a></li>
+            <li><a href="log.html">Log Today</a></li>
+            <li><a href="analytics.html">Analytics</a></li>
+            <li><a href="report.html">Report</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Every small step counts.</h1>
+        <p>Track your habits. Build consistency.</p>
+    </div>
+
+    <div class="cards-container">
+        <div class="card featured">
+            <p class="card-label">Today's Score</p>
+            <p class="card-value">78<span>/100</span></p>
+            <p class="card-sub">+12 from yesterday</p>
+        </div>
+        <div class="card">
+            <p class="card-label">Best Streak</p>
+            <p class="card-value">12<span> days</span></p>
+            <p class="card-sub">Water habit</p>
+        </div>
+        <div class="card">
+            <p class="card-label">Habits Done</p>
+            <p class="card-value">3<span>/5</span></p>
+            <p class="card-sub">Today</p>
+        </div>
+    </div>
+
+    <div class="habits-section">
+        <div class="habits-header">
+            <h2>Today's Habits</h2>
+            <a href="log.html" class="log-btn">Log Today</a>
+        </div>
+
+        <div class="habit-row">
+            <span class="habit-name">Water Intake</span>
+            <div class="progress-bar">
+                <div class="progress in-progress" style="width: 75%;"></div>
+            </div>
+            <span class="habit-status">6/8 glasses</span>
+        </div>
+
+        <div class="habit-row">
+            <span class="habit-name">Sleep</span>
+            <div class="progress-bar">
+                <div class="progress complete" style="width: 100%;"></div>
+            </div>
+            <span class="habit-status">7.5/7 hrs</span>
+        </div>
+
+        <div class="habit-row">
+            <span class="habit-name">Exercise</span>
+            <div class="progress-bar">
+                <div class="progress empty" style="width: 5%;"></div>
+            </div>
+            <span class="habit-status">Not done</span>
+        </div>
+
+        <div class="habit-row">
+            <span class="habit-name">Screen Time</span>
+            <div class="progress-bar">
+                <div class="progress in-progress" style="width: 65%;"></div>
+            </div>
+            <span class="habit-status">2/3 hrs</span>
+        </div>
+
+        <div class="habit-row">
+            <span class="habit-name">Reading</span>
+            <div class="progress-bar">
+                <div class="progress in-progress" style="width: 50%;"></div>
+            </div>
+            <span class="habit-status">10/20 pages</span>
+        </div>
+
+    </div>
+
+    <div class="motivation">
+        <p>You are <strong>2 habits</strong> away from a perfect day!</p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
